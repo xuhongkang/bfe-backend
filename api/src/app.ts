@@ -44,7 +44,7 @@ const main = async () => {
         json(),
         expressMiddleware(server)
         );
-    app.listen(3000, () => {
+    app.listen(8080, () => {
         console.log('Server running at http://localhost:8080/graphql');
     });
 };
